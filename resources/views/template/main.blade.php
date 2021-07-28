@@ -46,10 +46,10 @@
 </head>
 <body>
     @include('partials/header')
-    <div>
-        @yield('content')
-    </div>
 
+        @yield('content')
+    
+    @include('partials/footer')
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
